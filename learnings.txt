@@ -1,0 +1,30 @@
+Understanding the Dataset :
+> df.head()
+> df.columns
+> df.info()
+> df.shape
+> df.describe()
+> df.nunique()
+> df.dtypes
+> df.x1.unique()
+> df.x1.value_counts()
+
+Modifying datasets(if any) :
+> df.iloc[r_s:r_e,c_s:c_e]
+> pd.merge(df1,df2,on = , how= )
+> df1.append(d2)
+> pd.concat([df1,df2],axis=0/1)
+> df.drop(x1,axis = 0/1 ,inplace=True/False)
+> df.x1 = df.x1.astype(int/float...)
+
+Working on missing/duplicate values:
+> df.isna().sum() / df.isnull().sum()
+> df.fillna()
+> df[df.index.duplicated]	
+> finding mean and modes to fill NaN : df.x1.mean() , df.x1.mode()
+
+Encoding:
+> pd.get_dummies(df.x1,drop_first = True)
+> df.x1 = df.x1.map({})
+
+
