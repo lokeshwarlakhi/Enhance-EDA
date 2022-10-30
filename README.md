@@ -104,6 +104,7 @@ Encoding is usually used to deal with labeled categorical data. where the catego
 | `pd.get_dummies(df.x1,drop_first = True)` | this will perform one hot encoding to the categorical variables of the features. and `drop_first = True` will drop the first variables ecoded value, which will in turn reduce the burden on the model to learn. you can refer _[<u>this</u>](https://stackoverflow.com/questions/63661560/drop-first-true-during-dummy-variable-creation-in-pandas)_. to get more knowledge.
 |`df.x1 = df.x1.map({xa1:1,xa2:2....})`| This code is used for label encoding the categorical varibles of the feature. here `xa1`, `xa2` are the current categories and `1`,`2` are the respective modified value often referred as the ranks.
 
+---
 # Plotting in EDA <a id = plotting> </a>
 
 plotting different types of realations between the features and varibles, gives the clear insights and makes it very easy to explain the observation to the client, instead of showing them the excel sheet and writing the observations beneath. there are different types of plots you can use to analyse the dataset, most commonly used plots are:
@@ -118,3 +119,12 @@ plotting different types of realations between the features and varibles, gives 
 - [histogram](https://seaborn.pydata.org/generated/seaborn.histplot.html)
 
 Go though the jupyter notebooks present in the repository to get better understanding on how each graph is used. 
+
+---
+# Contributing <a id = contribute ></a>
+Got any ideas that you want to contribute to this repository? Sure, you are open to contribute. 
+fork,clone,commit,send the PR. 
+
+---
+Make sure you star the repo if you gain any value through this repo :-)
+#### Hail Data 🖖🏾.
